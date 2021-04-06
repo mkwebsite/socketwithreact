@@ -1,0 +1,26 @@
+{
+  "name": "ChatServer",
+  "version": "1.0.0",
+  "description": "One to One Chat Server",
+  "main": "chat_server.js",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "io": "^0.1.10",
+    "js-base64": "^3.6.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.13.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "node test_server.js",
+    "start": "node test_server.js",
+    "dev": "nodemon test_server.js"
+  },
+  "author": "GSS",
+  "license": "ISC"
+}
